@@ -1,0 +1,54 @@
+Started by user [8mha:////4L1rL13cQsIotT8v+YXHbOe79p/22085MGS6rQ8DtHvjAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYu/dLi1CL9xLysUgDpSLBjvwAAAA==[0mkr
+Running as SYSTEM
+Building remotely on [8mha:////4ALjWMJi/nhLbYBDojNP9XUrrXSeRn673hSUQQEDhk30AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/aTSzJwUAJvkr3/EAAAA[0mbuild in workspace /home/jenkins/workspace/fourthjob
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/anjinama150/shellscript
+ > git init /home/jenkins/workspace/fourthjob # timeout=10
+Fetching upstream changes from https://github.com/anjinama150/shellscript
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/anjinama150/shellscript +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/anjinama150/shellscript # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 8a63299624d10181a52c99b6213c5abcbc57ce33 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8a63299624d10181a52c99b6213c5abcbc57ce33 # timeout=10
+Commit message: "Update 1.sh"
+First time build. Skipping changelog.
+[fourthjob] $ /bin/sh -xe /tmp/jenkins10566695434612598146.sh
++ pwd
+/home/jenkins/workspace/fourthjob
++ ls
+1.sh
+10.sh
+11.sh
+12.sh
+13.sh
+14.sh
+16.sh
+17.sh
+18.sh
+19.sh
+2.sh
+20.sh
+3.sh
+4.sh
+5.sh
+6.sh
+7.sh
+8.sh
+9.sh
+delete.sh
+smallest.sh
++ git clone https://github.com/anjinama150/shellscript
+Cloning into 'shellscript'...
++ sh shellscript/3.sh 2 3
+shellscript/3.sh
+Enter the 1st number
+Enter the 2nd number
+The sum of 2 numbers is 5
+Finished: SUCCESS

@@ -1,0 +1,18 @@
+commit f51abe25543b3c1240aadd19064c18031962b6c8
+tree a8f8c8c8e1078810cfef70e650f6bc97bc3576f5
+parent 9d30090419e98f38a57baef6f9d7b0ce101e3893
+author anjinama150 <118283202+anjinama150@users.noreply.github.com> 2022-12-02 17:43:48 +0530
+committer GitHub <noreply@github.com> 2022-12-02 17:43:48 +0530
+
+    Update Jenkinsjfrog
+
+:100644 100644 58d792dc7d53f32616d527450672c5e3c47373d9 21256dc6a442bcf642f178162159612c570801fa M	Jenkinsjfrog
+commit 9d30090419e98f38a57baef6f9d7b0ce101e3893
+tree 384beeddfa0a31a7ca1d8ba980f09063aa11a43d
+parent 2a27d77721073f674a10135df3637e99ab9c3f4d
+author anjinama150 <118283202+anjinama150@users.noreply.github.com> 2022-12-02 17:30:36 +0530
+committer GitHub <noreply@github.com> 2022-12-02 17:30:36 +0530
+
+    Update pom.xml
+
+:100644 100644 b4df95621c02a11f58f24fad4d82146de96ff7a9 4fda9571d17e31f056ad6605d78ab19f0420df99 M	pom.xml

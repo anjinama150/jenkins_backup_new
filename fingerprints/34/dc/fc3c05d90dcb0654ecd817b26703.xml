@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-28 06:01:28.899 UTC</timestamp>
+  <md5sum>34dcfc3c05d90dcb0654ecd817b26703</md5sum>
+  <fileName>Credential id=build name=jenkins/****** (build)</fileName>
+  <usages>
+    <entry>
+      <string>tomcat_and_maven</string>
+      <ranges>1-3</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1189.vf61b_a_5e2f62e">
+      <timestamp>1670063548783</timestamp>
+      <nodeName>build</nodeName>
+      <timestamp0>1670061988778</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

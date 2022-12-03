@@ -1,0 +1,15 @@
+Started by user [8mha:////4L1rL13cQsIotT8v+YXHbOe79p/22085MGS6rQ8DtHvjAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYu/dLi1CL9xLysUgDpSLBjvwAAAA==[0mkr
+Running as SYSTEM
+Building remotely on [8mha:////4KsRnZtUS/5GXWDQXx1wC46d0tsSide030ILVdWr4vtKAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/aTSzJyU1CIA/tjAAcYAAAA=[0mbuilder in workspace /home/jen/workspace/thirdjob
+[thirdjob] $ /bin/sh -xe /tmp/jenkins1269276408361930236.sh
++ pwd
+/home/jen/workspace/thirdjob
++ ls
++ git clone https://github.com/anjinama150/shellscript
+Cloning into 'shellscript'...
++ sh shellscript/3.sh 2 3
+shellscript/3.sh
+Enter the 1st number
+Enter the 2nd number
+The sum of 2 numbers is 5
+Finished: SUCCESS

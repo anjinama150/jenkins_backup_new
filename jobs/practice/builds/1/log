@@ -1,0 +1,31 @@
+Started by user [8mha:////4L1rL13cQsIotT8v+YXHbOe79p/22085MGS6rQ8DtHvjAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYu/dLi1CL9xLysUgDpSLBjvwAAAA==[0mkr
+Running as SYSTEM
+Building remotely on [8mha:////4KsRnZtUS/5GXWDQXx1wC46d0tsSide030ILVdWr4vtKAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/aTSzJyU1CIA/tjAAcYAAAA=[0mbuilder in workspace /home/jen/workspace/practice
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/anjinama150/conf-and-webapps-file.git
+ > git init /home/jen/workspace/practice # timeout=10
+Fetching upstream changes from https://github.com/anjinama150/conf-and-webapps-file.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/anjinama150/conf-and-webapps-file.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/anjinama150/conf-and-webapps-file.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision ec67937801394a2a856f2775938f13d2b9789e33 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ec67937801394a2a856f2775938f13d2b9789e33 # timeout=10
+Commit message: "first commit5"
+First time build. Skipping changelog.
+[practice] $ /bin/sh -xe /tmp/jenkins15875117835250916924.sh
++ ls
+1.sh
+README.md
+context.xml
+contexthm.xml
+tomcat-users.xml
++ pwd
+/home/jen/workspace/practice
+Finished: SUCCESS

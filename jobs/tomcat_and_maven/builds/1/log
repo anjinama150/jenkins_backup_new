@@ -1,0 +1,75 @@
+Started by user [8mha:////4L1rL13cQsIotT8v+YXHbOe79p/22085MGS6rQ8DtHvjAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYu/dLi1CL9xLysUgDpSLBjvwAAAA==[0mkr
+Running as SYSTEM
+Building remotely on [8mha:////4ALjWMJi/nhLbYBDojNP9XUrrXSeRn673hSUQQEDhk30AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/aTSzJwUAJvkr3/EAAAA[0mbuild in workspace /home/jenkins/workspace/tomcat_and_maven
+The recommended git tool is: NONE
+using credential build
+Cloning the remote Git repository
+Cloning repository https://github.com/anjinama150/builds.git
+ > git init /home/jenkins/workspace/tomcat_and_maven # timeout=10
+Fetching upstream changes from https://github.com/anjinama150/builds.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials build
+ > git fetch --tags --force --progress -- https://github.com/anjinama150/builds.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/anjinama150/builds.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision dd2d6c36b82087b5d08ffbd434d4584df249fbc9 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f dd2d6c36b82087b5d08ffbd434d4584df249fbc9 # timeout=10
+Commit message: "first commit2"
+First time build. Skipping changelog.
+[tomcat_and_maven] $ /bin/sh -xe /tmp/jenkins1782680196486827309.sh
++ pwd
+/home/jenkins/workspace/tomcat_and_maven
++ ls
+1.sh
+2.sh
+3.sh
+README.md
++ sh 2.sh
+/etc/sudoers:50:25: syntax error
+%sudo	ALL=(ALL:ALL) ALL NOPASSWD:ALL
+                        ^~~~~~~~~
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://ap-northeast-1.ec2.archive.ubuntu.com/ubuntu jammy InRelease
+Get:2 http://ap-northeast-1.ec2.archive.ubuntu.com/ubuntu jammy-updates InRelease [114 kB]
+Get:3 http://ap-northeast-1.ec2.archive.ubuntu.com/ubuntu jammy-backports InRelease [99.8 kB]
+Get:4 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+Fetched 324 kB in 1s (381 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+36 packages can be upgraded. Run 'apt list --upgradable' to see them.
+/etc/sudoers:50:25: syntax error
+%sudo	ALL=(ALL:ALL) ALL NOPASSWD:ALL
+                        ^~~~~~~~~
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+default-jdk is already the newest version (2:1.11-72build2).
+0 upgraded, 0 newly installed, 0 to remove and 36 not upgraded.
+--2022-11-28 13:11:06--  https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.27/bin/apache-tomcat-10.0.27.tar.gz
+Resolving dlcdn.apache.org (dlcdn.apache.org)... 151.101.2.132, 2a04:4e42::644
+Connecting to dlcdn.apache.org (dlcdn.apache.org)|151.101.2.132|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 11984522 (11M) [application/x-gzip]
+apache-tomcat-10.0.27.tar.gz: Permission denied
+
+Cannot write to ‘apache-tomcat-10.0.27.tar.gz’ (Success).
+tar (child): /opt/apache-tomcat-10.0.27.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+2.sh: 7: cd: can't cd to apache-tomcat-10.0.27
+Vim: Warning: Output is not to a terminal
+Vim: Warning: Input is not from a terminal
+[m[m[0m[H[2J[24;1H"conf/tomcat-users.xml" [New DIRECTORY][2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [0m[24;63H0,0-1[9CAll[1;1HBuild was aborted
+Aborted by [8mha:////4L1rL13cQsIotT8v+YXHbOe79p/22085MGS6rQ8DtHvjAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYu/dLi1CL9xLysUgDpSLBjvwAAAA==[0mkr
+Finished: ABORTED

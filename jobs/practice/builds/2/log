@@ -1,0 +1,56 @@
+Started by user [8mha:////4L1rL13cQsIotT8v+YXHbOe79p/22085MGS6rQ8DtHvjAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYu/dLi1CL9xLysUgDpSLBjvwAAAA==[0mkr
+Running as SYSTEM
+Building remotely on [8mha:////4KsRnZtUS/5GXWDQXx1wC46d0tsSide030ILVdWr4vtKAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/aTSzJyU1CIA/tjAAcYAAAA=[0mbuilder in workspace /home/jen/workspace/practice
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/jen/workspace/practice/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/anjinama150/shellscript.git # timeout=10
+Fetching upstream changes from https://github.com/anjinama150/shellscript.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/anjinama150/shellscript.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 4fff04777821758abfb47326e71fc04110bb7e7b (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4fff04777821758abfb47326e71fc04110bb7e7b # timeout=10
+Commit message: "Merge pull request #2 from anjinama150/bsush"
+First time build. Skipping changelog.
+[practice] $ /bin/sh -xe /tmp/jenkins13427228720987314206.sh
++ ls
+1.sh
+10.sh
+11.sh
+12.sh
+13.sh
+14.sh
+16.sh
+17.sh
+18.sh
+19.sh
+2.sh
+20.sh
+3.sh
+4.sh
+5.sh
+6.sh
+7.sh
+8.sh
+9.sh
+delete.sh
+smallest.sh
++ pwd
+/home/jen/workspace/practice
++ sh 1.sh 3 4
+Enter the first number1 value
+Enter the 2nd number2
+First number1 is 
+The second number2 is 
+Enter the first int value  to print
+Enter the 2nd integer to print
+First integer  number  is 3
+The second integer number is 4
+anju
+triggered from webhook jenkins
+jenkins automatic
+Finished: SUCCESS
